@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navBar li {
+    list-style: none;
+    display: inline;
+}
+
+.navBar li a {
+    text-decoration: overline underline;
+}
+
+
+footer {
+    background-color: rgb(65, 64, 64);
+}
+
+.banner {
+    background-image: url("../assets/img/asian-family-buying-new-house.jpg");
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction:row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.parrafoRelleno {
+    font-style: normal;
+    font-weight: 40px;
+}
+
+h1 {
+    font-style: italic;
+    text-align: left;
+    padding-right: 15%;
+    font-size: 30px;
+    color: aliceblue;
+}
+
+h2 {
+    font-style: normal;
+    font-size: 30px;
+    padding-left: 50;
+    text-align: center;
+}
+
+h3{
+    color: azure;
+}
